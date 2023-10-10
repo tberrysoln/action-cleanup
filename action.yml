@@ -2,7 +2,7 @@ name: "Cleanup Workspace"
 description: "Deletes all files in the work directory."
 runs:
   using: "docker"
-  image: "docker://ghcr.io/asilbek99/action-cleanup:v1.0"
+  image: "docker://ghcr.io/tberrysoln/action-cleanup:v1.0"
 branding:
   icon: delete
   color: red
